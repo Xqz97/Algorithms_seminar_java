@@ -13,6 +13,7 @@ public class Seminar1 {
         binarySearch(numRandom);
     }
 
+// Прямой подбор числа.
     public static void podbor(int a) {
         for (int i = 0; i < 101; i++) {
             if (i == a) {
@@ -22,6 +23,7 @@ public class Seminar1 {
         }
     }
 
+    // Угадывание
     public static void randomGuess(int a) {
         long start = System.nanoTime();
         int k = 0;
